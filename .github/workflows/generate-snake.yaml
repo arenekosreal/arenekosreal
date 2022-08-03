@@ -1,4 +1,4 @@
-name: Generage Commit Snake
+name: Generate Commit Snake
 
 on:
     schedule: 
