@@ -2,15 +2,15 @@
 
 Lifting Bucket, Running Away, Touching Fish and Waiting for Death...  
 
-The images at the end of this are my code stats, I am not major in programming, I just write programs to try to make my life easier.
+The images at the end of this are our code stats, we are not major in programming, we just write programs to try to make our life easier.
 
-I don't like talk with strangers face to face but chat online is ok. Now I am mainly learning Shell, Python and C#, you can know what I learn by visiting my pinned repositories. Unlike other people teach themselves by reading books and so on, I mainly teach myself by writing a project and solve problems I meet.
+We don't like talk with strangers face to face but chat online is ok. Now we are mainly learning Shell, Python and C#, you can know what we learn by visiting our pinned repositories. Unlike other people teach themselves by reading books and so on, we mainly teach ourselves by writing a project and solve problems we meet.
 
-Chocola, Vanilla, Capoo and many other cat characters are also my tastes, most of them are very cute girls, so I call myself a GNU/Lolicon. Maybe you like them too or you will like them in the future.
+Chocola, Vanilla, Capoo and many other cat characters are also our tastes, most of them are very cute girls, so we call ourselves GNU/Lolicon. Maybe you like them too or you will like them in the future.
 
-My English is not well, hope you can forgive my grammar mistakes in this file if possible.
+Our English is not well, hope you can forgive our grammar mistakes in this file if possible.
 
-Anyway, have a nice day when visiting my projects.
+Anyway, have a nice day when visiting our projects.
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <picture>
@@ -29,4 +29,4 @@ Anyway, have a nice day when visiting my projects.
   </picture>
 </a>
 
-If you want to know where I get those picture elements, simply click on them, the browser will lead you to where I found them.
+If you want to know where we get those picture elements, simply click on them, the browser will lead you to where we found them.
