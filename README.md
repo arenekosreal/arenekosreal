@@ -29,4 +29,5 @@ Anyway, have a nice day when visiting our projects.
   </picture>
 </a>
 
-If you want to know where we get those picture elements, simply click on them, the browser will lead you to where we found them.
+If you want to know where we get those picture elements, simply click on them, the browser will lead you to where we found them.  
+If you have too much money and do not find a way to spend, you can send us some BTC: [bc1q8e0fj8ug3vdkm4pp0qua2n54uxlmd90wt0rvjj](bitcoin:BC1Q8E0FJ8UG3VDKM4PP0QUA2N54UXLMD90WT0RVJJ?label=Cyber%20Begger&message=Send%20me%20anything%20only%20when%20you%20know%20what%20you%20are%20doing.%20No%20payback%20or%20refund)
