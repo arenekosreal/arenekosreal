@@ -28,6 +28,12 @@ Anyway, have a nice day when visiting our projects.
     <img alt="GitHub Contributions" src="https://github.com/zhanghua000/zhanghua000/raw/main/snakes/light.svg">
   </picture>
 </a>
+<a href="https://github.com/antonkomarev/github-profile-views-counter">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://komarev.com/ghpvc/?username=zhanghua000&color=gray&style=for-the-badge">
+    <img alt="Profile Viewers" src="https://komarev.com/ghpvc/?username=zhanghua000&color=brightgreen&style=for-the-badge">
+  </picture>
+</a>
 
 If you want to know where we get those picture elements, simply click on them, the browser will lead you to where we found them.  
 If you have too much money and do not find a way to spend, you can send us some BTC: [bc1q8e0fj8ug3vdkm4pp0qua2n54uxlmd90wt0rvjj](bitcoin:BC1Q8E0FJ8UG3VDKM4PP0QUA2N54UXLMD90WT0RVJJ?label=Cyber%20Begger&message=Send%20me%20anything%20only%20when%20you%20know%20what%20you%20are%20doing.%20No%20payback%20or%20refund)
