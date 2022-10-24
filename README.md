@@ -16,7 +16,7 @@ Here are what are we listening recently:
 
 <a href="https://github.com/melipass/lastfm-to-markdown">
 <!-- lastfm -->
-
+<p align="center"></p>
 
 </a>
 
