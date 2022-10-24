@@ -12,7 +12,7 @@ Our English is not well, hope you can forgive our grammar mistakes in this file 
 
 Anyway, have a nice day when visiting our projects.
 
-Here are what are we listening recently:  
+Here are what songs we are listening recently:  
 
 <a href="https://github.com/melipass/lastfm-to-markdown">
 <!-- lastfm -->
