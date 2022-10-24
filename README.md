@@ -12,6 +12,16 @@ Our English is not well, hope you can forgive our grammar mistakes in this file 
 
 Anyway, have a nice day when visiting our projects.
 
+Here are what are we listening recently:  
+
+<a href="https://github.com/melipass/lastfm-to-markdown">
+  <!-- lastfm -->
+
+
+</a>
+
+Also with what is the status of us recently:
+
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=zhanghua000&theme=dark">
@@ -38,4 +48,5 @@ Anyway, have a nice day when visiting our projects.
 </a>
 
 If you want to know where we get those picture elements, simply click on them, the browser will lead you to where we found them.  
-If you have too much money and do not find a way to spend, you can send us some BTC: [bc1q8e0fj8ug3vdkm4pp0qua2n54uxlmd90wt0rvjj](bitcoin:BC1Q8E0FJ8UG3VDKM4PP0QUA2N54UXLMD90WT0RVJJ?label=Cyber%20Begger&message=Send%20me%20anything%20only%20when%20you%20know%20what%20you%20are%20doing.%20No%20payback%20or%20refund)
+
+If you have too much money and do not find a way to spend, you can send us some BTC: bc1q8e0fj8ug3vdkm4pp0qua2n54uxlmd90wt0rvjj
