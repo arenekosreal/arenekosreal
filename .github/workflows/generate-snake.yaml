@@ -1,4 +1,4 @@
-name: Generate Commit Snake
+name: Generate Readme Data
 
 on:
     schedule: 
