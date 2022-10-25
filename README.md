@@ -12,13 +12,10 @@ Our English is not well, hope you can forgive our grammar mistakes in this file 
 
 Anyway, have a nice day when visiting our projects.
 
-Here are what songs we are listening recently:  
+Here are what songs we are listening recently[^1]:  
 
-<a href="https://github.com/melipass/lastfm-to-markdown">
 <!-- lastfm -->
 <p align="center"><a href="https://www.last.fm/music/3R2/junk"><img src="https://lastfm.freetls.fastly.net/i/u/64s/03f03143c11a4befded7d166f553e0d1.png" title="3R2 - junk"></a> <a href="https://www.last.fm/music/3R2/Kirara+Anthems+vol.3"><img src="https://lastfm.freetls.fastly.net/i/u/64s/5e6beba75148c6d20571dc2a2434674f.jpg" title="3R2 - Kirara Anthems vol.3"></a> <a href="https://www.last.fm/music/Haloweak/Dual+Sight"><img src="https://lastfm.freetls.fastly.net/i/u/64s/9505df0ed6d143cd899a0a0be8df952c.jpg" title="Haloweak - Dual Sight"></a> <a href="https://www.last.fm/music/MYUKKE./FULi+AUTO+SHOOTER"><img src="https://lastfm.freetls.fastly.net/i/u/64s/5fed207c7e5a72cea275fa42c2c12dfb.jpg" title="MYUKKE. - FULi AUTO SHOOTER"></a> <a href="https://www.last.fm/music/Yonder+Voice/%E8%8A%B1%E6%9C%88%E5%A4%9C"><img src="https://lastfm.freetls.fastly.net/i/u/64s/d7757a58e0a9b28b49e3e7a014463f64.png" title="Yonder Voice - 花月夜"></a> </p>
-
-</a>
 
 Also with what is the status of us recently:
 
@@ -50,3 +47,5 @@ Also with what is the status of us recently:
 If you want to know where we get those picture elements, simply click on them, the browser will lead you to where we found them.  
 
 If you have too much money and do not find a way to spend, you can send us some BTC: bc1q8e0fj8ug3vdkm4pp0qua2n54uxlmd90wt0rvjj
+
+[^1]: Thanks to [lastfm-to-markdown](https://github.com/melipass/lastfm-to-markdown)
