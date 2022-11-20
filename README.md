@@ -46,6 +46,7 @@ Also with what is the status of us recently:
 
 If you want to know where we get those picture elements, simply click on them, the browser will lead you to where we found them.  
 
-If you have too much money and do not find a way to spend, you can send us some BTC: bc1q8e0fj8ug3vdkm4pp0qua2n54uxlmd90wt0rvjj
+If you have too much money and do not find a way to spend, you can send us some BTC:  
+bc1qq0x7gr3uuk32gntea7vahcek3zhz5hhx2zmhzj
 
 [^1]: Thanks to [lastfm-to-markdown](https://github.com/melipass/lastfm-to-markdown)
