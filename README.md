@@ -15,7 +15,7 @@ Anyway, have a nice day when visiting our projects.
 Here are what songs we are listening recently[^1]:  
 
 <!-- lastfm -->
-<p align="center"><a href="https://www.last.fm/music/a_hisa/colors+3"><img src="https://lastfm.freetls.fastly.net/i/u/64s/f01a0b18eed8117b3a308b4169626d8e.png" title="a_hisa - colors 3"></a> </p>
+<p align="center"></p>
 
 Also with what is the status of us recently:
 
