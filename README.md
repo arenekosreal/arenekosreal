@@ -15,7 +15,7 @@ Anyway, have a nice day when visiting our projects.
 Here are what songs we are listening recently[^1]:  
 
 <!-- lastfm -->
-<p align="center"><a href="https://www.last.fm/music/crafTUNER/AZURESSENCE"><img src="https://lastfm.freetls.fastly.net/i/u/64s/c9873cf780950ba30b82a4d7bca5bbda.jpg" title="crafTUNER - AZURESSENCE"></a> </p>
+<p align="center"><a href="https://www.last.fm/music/3R2/Stuff"><img src="https://lastfm.freetls.fastly.net/i/u/64s/e092d08d9d5f1133c4454ef164bbd2b3.jpg" title="3R2 - Stuff"></a> <a href="https://www.last.fm/music/Kirara+Records/Kirara+Anthems+vol.3"><img src="https://lastfm.freetls.fastly.net/i/u/64s/b969af8fe7d5e975ee5918d15d637a23.jpg" title="Kirara Records - Kirara Anthems vol.3"></a> </p>
 
 Also with what is the status of us recently:
 
