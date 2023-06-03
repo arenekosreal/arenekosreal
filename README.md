@@ -12,11 +12,14 @@ Our English is not well, hope you can forgive our grammar mistakes in this file 
 
 Anyway, have a nice day when visiting our projects.
 
-Here are what songs we are listening recently[^1]:  
-
-<!-- lastfm -->
-<p align="center"></p>
-
+Here are what songs we are listening recently
+<a href="https://github.com/JeffreyCA/lastfm-recently-played-readme">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://lastfm-recently-played.vercel.app/api?user=zhanghua0&width=800">
+    <img alt="Lastfm Stats" src="https://lastfm-recently-played.vercel.app/api?user=zhanghua0&width=800">
+  </picture>
+</a>
+  
 Also with what is the status of us recently:
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
@@ -48,5 +51,3 @@ If you want to know where we get those picture elements, simply click on them, t
 
 If you have too much money and do not find a way to spend, you can send us some BTC:  
 bc1qq0x7gr3uuk32gntea7vahcek3zhz5hhx2zmhzj
-
-[^1]: Thanks to [lastfm-to-markdown](https://github.com/melipass/lastfm-to-markdown)
