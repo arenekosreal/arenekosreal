@@ -8,18 +8,21 @@ on:
 jobs:
     build:
         runs-on: ubuntu-latest
+        permissions:
+          statuses: read
         steps:
             - name: checkout
               uses: actions/checkout@v3
             - name: generate-snake
-              #uses: Platane/snk/svg-only@v2
-              uses: aelassas/snk/svg-only@main
+              uses: Platane/snk/svg-only@v3
               with: 
                     github_user_name: ${{ github.repository_owner }}
                     outputs: |
                         ./snakes/dark.svg?palette=github-dark&&color_snake=blue
                         ./snakes/light.svg?color_snake=#7845ab
                         ./snakes/ocean.svg?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             - name: commit-and-push
               uses: stefanzweifel/git-auto-commit-action@v4
               with: 
