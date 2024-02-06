@@ -24,26 +24,26 @@ Also with what is the status of us recently:
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=zhanghua000&theme=dark">
-    <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=zhanghua000&theme=default">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=arenekosreal&theme=dark">
+    <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=arenekosreal&theme=default">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=zhanghua000&theme=dark&layout=compact">
-    <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zhanghua000&theme=default&layout=compact">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=arenekosreal&theme=dark&layout=compact">
+    <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arenekosreal&theme=default&layout=compact">
   </picture>
 </a>
 
 <a href="https://github.com/Platane/snk">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/zhanghua000/zhanghua000/raw/main/snakes/dark.svg">
-    <img alt="GitHub Contributions" src="https://github.com/zhanghua000/zhanghua000/raw/main/snakes/light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/arenekosreal/arenekosreal/raw/main/snakes/dark.svg">
+    <img alt="GitHub Contributions" src="https://github.com/arenekosreal/arenekosreal/raw/main/snakes/light.svg">
   </picture>
 </a>
 
 <a href="https://github.com/antonkomarev/github-profile-views-counter">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://komarev.com/ghpvc/?username=zhanghua000&color=gray&style=for-the-badge">
-    <img alt="Profile Viewers" src="https://komarev.com/ghpvc/?username=zhanghua000&color=brightgreen&style=for-the-badge">
+    <source media="(prefers-color-scheme: dark)" srcset="https://komarev.com/ghpvc/?username=arenekosreal&color=gray&style=for-the-badge">
+    <img alt="Profile Viewers" src="https://komarev.com/ghpvc/?username=arenekosreal&color=brightgreen&style=for-the-badge">
   </picture>
 </a>
 
