@@ -28,3 +28,4 @@ jobs:
               uses: stefanzweifel/git-auto-commit-action@v5
               with: 
                     commit_message: Update Profile
+                    commit_author: arenekosreal <17194552+arenekosreal@users.noreply.github.com>
