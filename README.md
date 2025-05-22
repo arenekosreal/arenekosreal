@@ -49,5 +49,11 @@ Also with what is the status of us recently:
 
 If you want to know where we get those picture elements, simply click on them, the browser will lead you to where we found them.  
 
-If you have too much money and do not find a way to spend, you can send us some BTC:  
-bc1qq0x7gr3uuk32gntea7vahcek3zhz5hhx2zmhzj
+If you feel that our repositories are intresting and want to find a way to spend your money, you can sponsor us by those ways:
+
+- BTC: [`bc1qy7nmysuy8mfux9xrlrh4u9r8vd2ksanpcu7xks`](bitcoin:BC1QY7NMYSUY8MFUX9XRLRH4U9R8VD2KSANPCU7XKS?label=Sponsor)
+  <details>
+    <summary>Click to show QR code</summary>
+    ![QR code for wallet address](./images/btc-qr.png "QR code")
+  </details>
+
