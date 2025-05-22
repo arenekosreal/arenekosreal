@@ -54,6 +54,8 @@ If you feel that our repositories are intresting and want to find a way to spend
 - BTC: [`bc1qy7nmysuy8mfux9xrlrh4u9r8vd2ksanpcu7xks`](bitcoin:BC1QY7NMYSUY8MFUX9XRLRH4U9R8VD2KSANPCU7XKS?label=Sponsor)
   <details>
     <summary>Click to show QR code</summary>
-    ![QR code for wallet address](./images/btc-qr.png "QR code")
+    <picture>
+      <img src="./images/btc-qr.png" />
+    </picture>
   </details>
 
