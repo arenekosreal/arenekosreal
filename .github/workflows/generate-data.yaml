@@ -25,7 +25,7 @@ jobs:
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             - name: commit-and-push
-              uses: stefanzweifel/git-auto-commit-action@v5
+              uses: stefanzweifel/git-auto-commit-action@v6
               with: 
                     commit_message: Update Profile
                     commit_author: arenekosreal <17194552+arenekosreal@users.noreply.github.com>
