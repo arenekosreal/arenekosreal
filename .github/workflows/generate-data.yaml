@@ -19,13 +19,18 @@ jobs:
               with: 
                     github_user_name: ${{ github.repository_owner }}
                     outputs: |
-                        ./snakes/dark.svg?palette=github-dark&&color_snake=blue
-                        ./snakes/light.svg?color_snake=#7845ab
-                        ./snakes/ocean.svg?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+                        ./images/snakes/dark.svg?palette=github-dark&&color_snake=blue
+                        ./images/snakes/light.svg?color_snake=#7845ab
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            - name: commit-and-push
-              uses: stefanzweifel/git-auto-commit-action@v6
-              with: 
-                    commit_message: Update Profile
-                    commit_author: arenekosreal <17194552+arenekosreal@users.noreply.github.com>
+            - name: setup git
+              run: |
+                  git config --global user.name "github-actions[bot]"
+                  git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            - name: commit changes
+              run: |
+                  git add .
+                  git commit -m "Update profile"
+            - name: push changes
+              run: |
+                  git push

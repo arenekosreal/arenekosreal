@@ -35,8 +35,8 @@ Also with what is the status of us recently:
 
 <a href="https://github.com/Platane/snk">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/arenekosreal/arenekosreal/raw/main/snakes/dark.svg">
-    <img alt="GitHub Contributions" src="https://github.com/arenekosreal/arenekosreal/raw/main/snakes/light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./images/snakes/dark.svg">
+    <img alt="GitHub Contributions" src="./images/snakes/light.svg">
   </picture>
 </a>
 
