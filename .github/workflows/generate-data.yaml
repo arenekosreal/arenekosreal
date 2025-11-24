@@ -13,7 +13,7 @@ jobs:
           statuses: read
         steps:
             - name: checkout
-              uses: actions/checkout@v5
+              uses: actions/checkout@v6
             - name: generate-snake
               uses: Platane/snk/svg-only@v3
               with: 
