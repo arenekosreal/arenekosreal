@@ -12,7 +12,7 @@
         <desc id="descId"></desc>
         <style>
           .header {
-            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+            font: 600 18px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif;
             fill: #2f80ed;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
@@ -66,6 +66,10 @@
       transform-origin: -10px 8px;
       transform: rotate(-90deg);
       animation: rankAnimation 1s forwards ease-in-out;
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+    }
+    .rank-circle-rim {
+      filter: drop-shadow(0 1px 2px rgba(0,0,0,0.1));
     }
     
     @keyframes rankAnimation {
@@ -73,7 +77,7 @@
         stroke-dashoffset: 251.33;
       }
       to {
-        stroke-dashoffset: 57.37;
+        stroke-dashoffset: 57.35;
       }
     }
   
@@ -94,6 +98,32 @@
           opacity: 0;
         }
         to {
+          opacity: 1;
+        }
+      }
+      @keyframes slideInAnimation {
+        from {
+          transform: translateX(-10px);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+      @keyframes bounceInAnimation {
+        0% {
+          transform: scale(0.3);
+          opacity: 0;
+        }
+        50% {
+          transform: scale(1.05);
+        }
+        70% {
+          transform: scale(0.9);
+        }
+        100% {
+          transform: scale(1);
           opacity: 1;
         }
       }

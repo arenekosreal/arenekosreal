@@ -59,7 +59,7 @@ jobs:
                   git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
             - name: commit changes
               run: |
-                  git add .
+                  git add images
                   git commit -m "Update profile"
             - name: push changes
               run: |

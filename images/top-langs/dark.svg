@@ -1,8 +1,8 @@
 
       <svg
         width="300"
-        height="165"
-        viewBox="0 0 300 165"
+        height="285"
+        viewBox="0 0 300 285"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -12,7 +12,7 @@
         <desc id="descId"></desc>
         <style>
           .header {
-            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+            font: 600 18px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif;
             fill: #fff;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
@@ -31,9 +31,20 @@
     .lang-progress {
       animation: growWidthAnimation 0.6s ease-in-out forwards;
     }
+    #rect-mask rect {
+      animation: slideInAnimation 1s ease-in-out forwards;
+    }
     @keyframes progressAnimation {
       from {
         width: 0;
+      }
+    }
+    @keyframes slideInAnimation {
+      from {
+        width: 0;
+      }
+      to {
+        width: calc(100%-100px);
       }
     }
     @keyframes growWidthAnimation {
@@ -69,6 +80,32 @@
           opacity: 0;
         }
         to {
+          opacity: 1;
+        }
+      }
+      @keyframes slideInAnimation {
+        from {
+          transform: translateX(-10px);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+      @keyframes bounceInAnimation {
+        0% {
+          transform: scale(0.3);
+          opacity: 0;
+        }
+        50% {
+          transform: scale(1.05);
+        }
+        70% {
+          transform: scale(0.9);
+        }
+        100% {
+          transform: scale(1);
           opacity: 1;
         }
       }
@@ -112,127 +149,102 @@
         >
           
     <svg data-testid="lang-items" x="25">
-      
       <g transform="translate(0, 0)">
-        <circle cx="5" cy="6" r="5" fill="#178600" />
-        <text x="15" y="10" class="lang-name">C#</text>
-        <text x="255" y="10" class="lang-name" data-testid="lang-name">55.0%</text>
+      <g class="stagger" style="animation-delay: 450ms">
+        <text data-testid="lang-name" x="2" y="15" class="lang-name">C#</text>
+        <text x="215" y="34" class="lang-name" data-testid="lang-name">56.4%</text>
         
-    <svg width="255" x="0" y="0">
-      <rect rx="5" ry="5" x="0" y="0" width="255" height="8" fill="#ddd"></rect>
-      <svg data-testid="lang-progress" width="55.03%">
+    <svg width="205" x="0" y="25">
+      <rect rx="5" ry="5" x="0" y="0" width="205" height="8" fill="#ddd"></rect>
+      <svg data-testid="lang-progress" width="56.40%">
         <rect
             height="8"
             fill="#178600"
             rx="5" ry="5" x="0" y="0"
             class="lang-progress"
-            style="animation-delay: 0ms;"
+            style="animation-delay: 750ms;"
         />
       </svg>
     </svg>
   
       </g>
-    
-      <g transform="translate(0, 25)">
-        <circle cx="5" cy="6" r="5" fill="#3572A5" />
-        <text x="15" y="10" class="lang-name">Python</text>
-        <text x="255" y="10" class="lang-name" data-testid="lang-name">19.7%</text>
+    </g><g transform="translate(0, 40)">
+      <g class="stagger" style="animation-delay: 600ms">
+        <text data-testid="lang-name" x="2" y="15" class="lang-name">Python</text>
+        <text x="215" y="34" class="lang-name" data-testid="lang-name">20.2%</text>
         
-    <svg width="255" x="0" y="0">
-      <rect rx="5" ry="5" x="0" y="0" width="255" height="8" fill="#ddd"></rect>
-      <svg data-testid="lang-progress" width="19.69%">
+    <svg width="205" x="0" y="25">
+      <rect rx="5" ry="5" x="0" y="0" width="205" height="8" fill="#ddd"></rect>
+      <svg data-testid="lang-progress" width="20.18%">
         <rect
             height="8"
             fill="#3572A5"
             rx="5" ry="5" x="0" y="0"
             class="lang-progress"
-            style="animation-delay: 100ms;"
+            style="animation-delay: 900ms;"
         />
       </svg>
     </svg>
   
       </g>
-    
-      <g transform="translate(0, 50)">
-        <circle cx="5" cy="6" r="5" fill="#89e051" />
-        <text x="15" y="10" class="lang-name">Shell</text>
-        <text x="255" y="10" class="lang-name" data-testid="lang-name">14.3%</text>
+    </g><g transform="translate(0, 80)">
+      <g class="stagger" style="animation-delay: 750ms">
+        <text data-testid="lang-name" x="2" y="15" class="lang-name">Shell</text>
+        <text x="215" y="34" class="lang-name" data-testid="lang-name">14.7%</text>
         
-    <svg width="255" x="0" y="0">
-      <rect rx="5" ry="5" x="0" y="0" width="255" height="8" fill="#ddd"></rect>
-      <svg data-testid="lang-progress" width="14.34%">
+    <svg width="205" x="0" y="25">
+      <rect rx="5" ry="5" x="0" y="0" width="205" height="8" fill="#ddd"></rect>
+      <svg data-testid="lang-progress" width="14.70%">
         <rect
             height="8"
             fill="#89e051"
             rx="5" ry="5" x="0" y="0"
             class="lang-progress"
-            style="animation-delay: 200ms;"
+            style="animation-delay: 1050ms;"
         />
       </svg>
     </svg>
   
       </g>
-    
-      <g transform="translate(0, 75)">
-        <circle cx="5" cy="6" r="5" fill="#f34b7d" />
-        <text x="15" y="10" class="lang-name">C++</text>
-        <text x="255" y="10" class="lang-name" data-testid="lang-name">5.2%</text>
+    </g><g transform="translate(0, 120)">
+      <g class="stagger" style="animation-delay: 900ms">
+        <text data-testid="lang-name" x="2" y="15" class="lang-name">C++</text>
+        <text x="215" y="34" class="lang-name" data-testid="lang-name">5.4%</text>
         
-    <svg width="255" x="0" y="0">
-      <rect rx="5" ry="5" x="0" y="0" width="255" height="8" fill="#ddd"></rect>
-      <svg data-testid="lang-progress" width="5.22%">
+    <svg width="205" x="0" y="25">
+      <rect rx="5" ry="5" x="0" y="0" width="205" height="8" fill="#ddd"></rect>
+      <svg data-testid="lang-progress" width="5.35%">
         <rect
             height="8"
             fill="#f34b7d"
             rx="5" ry="5" x="0" y="0"
             class="lang-progress"
-            style="animation-delay: 300ms;"
+            style="animation-delay: 1200ms;"
         />
       </svg>
     </svg>
   
       </g>
-    
-      <g transform="translate(0, 100)">
-        <circle cx="5" cy="6" r="5" fill="#44a51c" />
-        <text x="15" y="10" class="lang-name">QML</text>
-        <text x="255" y="10" class="lang-name" data-testid="lang-name">3.3%</text>
+    </g><g transform="translate(0, 160)">
+      <g class="stagger" style="animation-delay: 1050ms">
+        <text data-testid="lang-name" x="2" y="15" class="lang-name">QML</text>
+        <text x="215" y="34" class="lang-name" data-testid="lang-name">3.4%</text>
         
-    <svg width="255" x="0" y="0">
-      <rect rx="5" ry="5" x="0" y="0" width="255" height="8" fill="#ddd"></rect>
-      <svg data-testid="lang-progress" width="3.28%">
+    <svg width="205" x="0" y="25">
+      <rect rx="5" ry="5" x="0" y="0" width="205" height="8" fill="#ddd"></rect>
+      <svg data-testid="lang-progress" width="3.36%">
         <rect
             height="8"
             fill="#44a51c"
             rx="5" ry="5" x="0" y="0"
             class="lang-progress"
-            style="animation-delay: 400ms;"
+            style="animation-delay: 1350ms;"
         />
       </svg>
     </svg>
   
       </g>
-    
-      <g transform="translate(0, 125)">
-        <circle cx="5" cy="6" r="5" fill="#A97BFF" />
-        <text x="15" y="10" class="lang-name">Kotlin</text>
-        <text x="255" y="10" class="lang-name" data-testid="lang-name">2.4%</text>
-        
-    <svg width="255" x="0" y="0">
-      <rect rx="5" ry="5" x="0" y="0" width="255" height="8" fill="#ddd"></rect>
-      <svg data-testid="lang-progress" width="2.44%">
-        <rect
-            height="8"
-            fill="#A97BFF"
-            rx="5" ry="5" x="0" y="0"
-            class="lang-progress"
-            style="animation-delay: 500ms;"
-        />
-      </svg>
-    </svg>
-  
-      </g>
-    
+    </g>
     </svg>
   
         </g>
