@@ -26,7 +26,8 @@ jobs:
                 go-version: stable
                 cache-dependency-path: "**/*.sum"
             - name: build github-readme-stats
-              run: go build -o '${{ runner.temp }}/github-readme-stats' ./github-readme-stats/cmd/server 
+              working-directory: github-readme-stats
+              run: go build -o '${{ runner.temp }}/github-readme-stats' ./cmd/server 
             - name: generate-snake
               uses: Platane/snk/svg-only@v3
               with: 
