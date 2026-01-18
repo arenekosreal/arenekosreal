@@ -14,12 +14,19 @@ jobs:
         steps:
             - name: checkout
               uses: actions/checkout@v6
+            - name: get github-readme-stats
+              uses: actions/checkout@v6
+              with:
+                repository: soulteary/github-readme-stats
+                ref: v1.0.0
+                path: github-readme-stats
             - name: setup go
               uses: actions/setup-go@v5
               with:
                 go-version: stable
+                cache-dependency-path: "**/*.sum"
             - name: build github-readme-stats
-              run: go install soulteary/github-readme-stats@v1.0.0 
+              run: go build -o '${{ runner.temp }}/github-readme-stats' github-readme-stats/cmd/server 
             - name: generate-snake
               uses: Platane/snk/svg-only@v3
               with: 
@@ -42,7 +49,7 @@ jobs:
                           '--username=${{ github.repository_owner }}'
                           "--theme=$theme"
                           "--output=images/$item/$theme.svg")
-                    go run github.com/soulteary/github-readme-stats@v1.0.0 "${args[@]}"
+                    '${{ runner.temp }}/github-readme-stats' "${args[@]}"
                   done
                 done
             - name: setup git
