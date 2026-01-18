@@ -14,6 +14,10 @@ jobs:
         steps:
             - name: checkout
               uses: actions/checkout@v6
+            - name: setup go
+              uses: actions/setup-go@v5
+              with:
+                go-version: stable
             - name: generate-snake
               uses: Platane/snk/svg-only@v3
               with: 
@@ -24,33 +28,21 @@ jobs:
               env:
                   GITHUB_TOKEN: ${{ github.token }}
             - name: generate github status
-              uses: soulteary/github-readme-stats-action@v1.0.0
-              with:
-                  card: stats
-                  options: theme=default
-                  path: images/stats/default.svg
-                  token: ${{ github.token }}
-            - name: generate github status(dark)
-              uses: soulteary/github-readme-stats-action@v1.0.0
-              with:
-                  card: stats
-                  options: theme=dark
-                  path: images/stats/dark.svg
-                  token: ${{ github.token }}
-            - name: generate github top-langs
-              uses: soulteary/github-readme-stats-action@v1.0.0
-              with:
-                  card: top-langs
-                  options: theme=default&layout=compact
-                  path: images/top-langs/default.svg
-                  token: ${{ github.token }}
-            - name: generate github top-langs(dark)
-              uses: soulteary/github-readme-stats-action@v1.0.0
-              with:
-                  card: top-langs
-                  options: theme=dark&layout=compact
-                  path: images/top-langs//dark.svg
-                  token: ${{ github.token }}
+              env:
+                PAT_1: ${{ github.token }}
+              run: |
+                for item in stats top-langs
+                do
+                  for theme in default dark
+                  do
+                    mkdir -p "images/$item"
+                    args=("--type=$item"
+                          '--username=${{ github.repository_owner }}'
+                          "--theme=$theme"
+                          "--output=images/$item/$theme.svg")
+                    go run github.com/soulteary/github-readme-stats@v1.0.0 "${args[@]}"
+                  done
+                done
             - name: setup git
               run: |
                   git config --global user.name "github-actions[bot]"

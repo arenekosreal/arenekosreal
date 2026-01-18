@@ -23,11 +23,11 @@ Here are what songs we are listening recently
 Also with what is the status of us recently:
 
 <a href="https://github.com/soulteary/github-readme-stats">
-  <picture>
+  <picture alignment="left">
     <source media="(prefers-color-scheme: dark)" srcset="./images/stats/dark.svg">
     <img alt="GitHub Stats" src="./images/stats/default.svg">
   </picture>
-  <picture>
+  <picture alignment="right">
     <source media="(prefers-color-scheme: dark)" srcset="./images/top-langs/dark.svg">
     <img alt="Top Langs" src="./images/top-langs/default.svg">
   </picture>
