@@ -22,14 +22,14 @@ Here are what songs we are listening recently
   
 Also with what is the status of us recently:
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
+<a href="https://github.com/soulteary/github-readme-stats">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=arenekosreal&theme=dark">
-    <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=arenekosreal&theme=default">
+    <source media="(prefers-color-scheme: dark)" srcset="./images/stats/dark.svg">
+    <img alt="GitHub Stats" src="./images/stats/default.svg">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=arenekosreal&theme=dark&layout=compact">
-    <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arenekosreal&theme=default&layout=compact">
+    <source media="(prefers-color-scheme: dark)" srcset="./images/top-langs/dark.svg">
+    <img alt="Top Langs" src="./images/top-langs/default.svg">
   </picture>
 </a>
 

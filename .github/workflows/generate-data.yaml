@@ -22,7 +22,35 @@ jobs:
                         ./images/snakes/dark.svg?palette=github-dark&&color_snake=blue
                         ./images/snakes/light.svg?color_snake=#7845ab
               env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  GITHUB_TOKEN: ${{ github.token }}
+            - name: generate github status
+              uses: soulteary/github-readme-stats-action@v1.0.0
+              with:
+                  card: stats
+                  options: theme=default
+                  path: images/stats/default.svg
+                  token: ${{ github.token }}
+            - name: generate github status(dark)
+              uses: soulteary/github-readme-stats-action@v1.0.0
+              with:
+                  card: stats
+                  options: theme=dark
+                  path: images/stats/dark.svg
+                  token: ${{ github.token }}
+            - name: generate github top-langs
+              uses: soulteary/github-readme-stats-action@v1.0.0
+              with:
+                  card: top-langs
+                  options: theme=default&layout=compact
+                  path: images/top-langs/default.svg
+                  token: ${{ github.token }}
+            - name: generate github top-langs(dark)
+              uses: soulteary/github-readme-stats-action@v1.0.0
+              with:
+                  card: top-langs
+                  options: theme=dark&layout=compact
+                  path: images/top-langs//dark.svg
+                  token: ${{ github.token }}
             - name: setup git
               run: |
                   git config --global user.name "github-actions[bot]"
