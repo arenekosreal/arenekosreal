@@ -20,10 +20,16 @@ jobs:
                 sudo apt-get install git-filter-repo
             - name: clean generated commits
               run: |
+                url="$(git remote get-url origin)"
+                branch="$(git branch --show-current)"
+                echo "Cleaning..."
                 git filter-repo --force --commit-callback '
-                  if b"github-actions[bot]" in [commit.author_name, commit.committer_name]:
-                    commit.skip()
+                if b"github-actions[bot]" in [commit.author_name, commit.committer_name]:
+                  commit.skip()
                 '
+                echo "Fixing remotes..."
+                git remote add origin "$url"
+                git branch --set-upstream-to "origin/$branch" "$branch"
             - name: get github-readme-stats
               uses: actions/checkout@v6
               with:
