@@ -29,6 +29,7 @@ jobs:
                 '
                 echo "Fixing remotes..."
                 git remote add origin "$url"
+                git fetch
                 git branch --set-upstream-to "origin/$branch" "$branch"
             - name: get github-readme-stats
               uses: actions/checkout@v6
