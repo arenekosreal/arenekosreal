@@ -25,9 +25,19 @@ jobs:
               with:
                 go-version: stable
                 cache-dependency-path: "**/*.sum"
+            - name: install git-filter-repo
+              run: |
+                sudo apt-get update -y
+                sudo apt-get install git-filter-repo
             - name: build github-readme-stats
               working-directory: github-readme-stats
               run: go build -o '${{ runner.temp }}/github-readme-stats' ./cmd/server 
+            - name: clean generated commits
+              run: |
+                git filter-repo --commit-callback '
+                  if commit.author_name == b"github-actions[bot]":
+                    commit.skip()
+                '
             - name: generate-snake
               uses: Platane/snk/svg-only@v3
               with: 
@@ -63,4 +73,4 @@ jobs:
                   git commit -m "Update profile"
             - name: push changes
               run: |
-                  git push
+                  git push -f
