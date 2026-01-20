@@ -35,7 +35,7 @@ jobs:
             - name: clean generated commits
               run: |
                 git filter-repo --commit-callback '
-                  if commit.author_name == b"github-actions[bot]":
+                  if b"github-actions[bot]" in [commit.author_name, commit.committer_name]:
                     commit.skip()
                 '
             - name: generate-snake
