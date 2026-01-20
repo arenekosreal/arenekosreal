@@ -14,6 +14,16 @@ jobs:
         steps:
             - name: checkout
               uses: actions/checkout@v6
+            - name: install git-filter-repo
+              run: |
+                sudo apt-get update -y
+                sudo apt-get install git-filter-repo
+            - name: clean generated commits
+              run: |
+                git filter-repo --force --commit-callback '
+                  if b"github-actions[bot]" in [commit.author_name, commit.committer_name]:
+                    commit.skip()
+                '
             - name: get github-readme-stats
               uses: actions/checkout@v6
               with:
@@ -25,19 +35,9 @@ jobs:
               with:
                 go-version: stable
                 cache-dependency-path: "**/*.sum"
-            - name: install git-filter-repo
-              run: |
-                sudo apt-get update -y
-                sudo apt-get install git-filter-repo
             - name: build github-readme-stats
               working-directory: github-readme-stats
               run: go build -o '${{ runner.temp }}/github-readme-stats' ./cmd/server 
-            - name: clean generated commits
-              run: |
-                git filter-repo --force --commit-callback '
-                  if b"github-actions[bot]" in [commit.author_name, commit.committer_name]:
-                    commit.skip()
-                '
             - name: generate-snake
               uses: Platane/snk/svg-only@v3
               with: 
