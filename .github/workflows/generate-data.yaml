@@ -11,6 +11,9 @@ jobs:
         permissions:
           contents: write
           statuses: read
+          discussions: read
+          issues: read
+          pull-requests: read
         steps:
             - name: checkout
               uses: actions/checkout@v6
