@@ -9,33 +9,12 @@ jobs:
     build:
         runs-on: ubuntu-latest
         permissions:
-          contents: write
-          statuses: read
-          discussions: read
-          issues: read
-          pull-requests: read
+          id-token: write
+          pages: write
+        environment:
+          name: github-pages
+          url: ${{ steps.deploy.outputs.page_url }}
         steps:
-            - name: checkout
-              uses: actions/checkout@v6
-              with:
-                fetch-depth: 0
-            - name: install git-filter-repo
-              run: |
-                sudo apt-get update -y
-                sudo apt-get install git-filter-repo
-            - name: clean generated commits
-              run: |
-                url="$(git remote get-url origin)"
-                branch="$(git branch --show-current)"
-                echo "Cleaning..."
-                git filter-repo --force --commit-callback '
-                if b"github-actions[bot]" in [commit.author_name, commit.committer_name]:
-                  commit.skip()
-                '
-                echo "Fixing remotes..."
-                git remote add origin "$url"
-                git fetch
-                git branch --set-upstream-to "origin/$branch" "$branch"
             - name: get github-readme-stats
               uses: actions/checkout@v6
               with:
@@ -61,7 +40,8 @@ jobs:
                   GITHUB_TOKEN: ${{ github.token }}
             - name: generate github status
               env:
-                PAT_1: ${{ github.token }}
+                PAT_1: ${{ secrets.PAT_1 }}
+                PAT_2: ${{ github.token }}
               run: |
                 for item in stats top-langs
                 do
@@ -75,14 +55,10 @@ jobs:
                     '${{ runner.temp }}/github-readme-stats' "${args[@]}"
                   done
                 done
-            - name: setup git
-              run: |
-                  git config --global user.name "github-actions[bot]"
-                  git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            - name: commit changes
-              run: |
-                  git add images
-                  git commit -m "Update profile"
-            - name: push changes
-              run: |
-                  git push -f
+            - name: upload pages
+              uses: actions/upload-pages-artifact@v3
+              with:
+                path: images/
+            - name: deploy pages
+              id: deploy
+              uses: actions/deploy-pages@v4

@@ -24,19 +24,19 @@ Also with what is the status of us recently:
 
 <a href="https://github.com/soulteary/github-readme-stats">
   <picture alignment="left">
-    <source media="(prefers-color-scheme: dark)" srcset="./images/stats/dark.svg">
-    <img alt="GitHub Stats" src="./images/stats/default.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://arenekosreal.github.io/arenekosreal/stats/dark.svg">
+    <img alt="GitHub Stats" src="https://arenekosreal.github.io/arenekosreal/stats/default.svg">
   </picture>
   <picture alignment="right">
-    <source media="(prefers-color-scheme: dark)" srcset="./images/top-langs/dark.svg">
-    <img alt="Top Langs" src="./images/top-langs/default.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://arenekosreal.github.io/arenekosreal/top-langs/dark.svg">
+    <img alt="Top Langs" src="https://arenekosreal.github.io/arenekosreal/top-langs/default.svg">
   </picture>
 </a>
 
 <a href="https://github.com/Platane/snk">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./images/snakes/dark.svg">
-    <img alt="GitHub Contributions" src="./images/snakes/light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://arenekosreal.github.io/arenekosreal/snakes/dark.svg">
+    <img alt="GitHub Contributions" src="https://arenekosreal.github.io/arenekosreal/snakes/light.svg">
   </picture>
 </a>
 
