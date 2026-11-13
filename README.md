@@ -49,8 +49,8 @@ See pinned repositories for more info.
       <td>
         <a href="https://www.vultr.com/?ref=9099452">
           <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://www.vultr.com/media/logo_ondark.svg">
-            <img alt="Vultr Affiliate Link" src="https://www.vultr.com/media/logo_onwhite.svg" height="12px">
+            <source media="(prefers-color-scheme: dark)" srcset="./assets/vultr/logo_ondark.svg">
+            <img alt="Vultr Affiliate Link" src="./assets/vultr/logo_onwhite.svg" height="12px">
           </picture>
         </a>
       </td>
