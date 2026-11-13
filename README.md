@@ -1,37 +1,79 @@
-# Are those nekos real?
+<div>
+  <text>Welcome, there have been about </text>
+  <a href="https://github.com/antonkomarev/github-profile-views-counter">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://komarev.com/ghpvc/?username=arenekosreal&color=gray&style=for-the-badge">
+      <img alt="Profile Viewers" src="https://komarev.com/ghpvc/?username=arenekosreal&color=brightgreen&style=for-the-badge">
+    </picture>
+  </a>
+  <text> visitor(s) like you.</text>
+</div>
 
-Lifting Bucket, Running Away, Touching Fish and Waiting for Death...  
+# What are we doing?
 
-The images at the end of this are our code stats, we are not major in programming, we just write programs to try to make our life easier.
+~~Lifting Bucket, Running Away, Touching Fish, Swiping Water and Waiting for Death...~~
 
-We don't like talk with strangers face to face but chat online is ok. Now we are mainly learning Shell, Python and C#, you can know what we learn by visiting our pinned repositories. Unlike other people teach themselves by reading books and so on, we mainly teach ourselves by writing a project and solve problems we meet.
+## Coding
 
-Chocola, Vanilla, Capoo and many other cat characters are also our tastes, most of them are very cute girls, so we call ourselves GNU/Lolicon. Maybe you like them too or you will like them in the future.
+<table>
+  <tr>
+    <td align="center" valign="center">
+      <a href="https://github.com/soulteary/github-readme-stats">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://arenekosreal.github.io/arenekosreal/top-langs/dark.svg">
+          <img alt="Top Langs" src="https://arenekosreal.github.io/arenekosreal/top-langs/default.svg">
+        </picture>
+      </a>
+    </td>
+    <td align="center" valign="center">
+      <a href="https://github.com/soulteary/github-readme-stats" >
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://arenekosreal.github.io/arenekosreal/stats/dark.svg">
+          <img alt="GitHub Stats" src="https://arenekosreal.github.io/arenekosreal/stats/default.svg">
+        </picture>
+      </a>
+    </td>
+  </tr>
+</table>
 
-Our English is not well, hope you can forgive our grammar mistakes in this file if possible.
+See pinned repositories for more info.
 
-Anyway, have a nice day when visiting our projects.
+<div style="text-align: center;">
+<h5> Consider supporting our work by:</h5>
 
-Here are what songs we are listening recently
+<h6>Using these partner links supports my work at no extra cost:</h6>
+
+<div style="display:inline-block">
+  <table>
+    <tr>
+      <td>
+        <a href="https://www.vultr.com/?ref=9099452">
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://www.vultr.com/media/logo_ondark.svg">
+            <img alt="Vultr Affiliate Link" src="https://www.vultr.com/media/logo_onwhite.svg" height="12px">
+          </picture>
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<h6>Sending direct tips:</h6>
+
+**₿TC: ** `bc1qy7nmysuy8mfux9xrlrh4u9r8vd2ksanpcu7xks`
+
+</div>
+
+## Listening
+
 <a href="https://github.com/JeffreyCA/lastfm-recently-played-readme">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://lastfm-recently-played.vercel.app/api?user=zhanghua0&width=800">
     <img alt="Lastfm Stats" src="https://lastfm-recently-played.vercel.app/api?user=zhanghua0&width=800">
   </picture>
 </a>
-  
-Also with what is the status of us recently:
 
-<a href="https://github.com/soulteary/github-readme-stats">
-  <picture alignment="left">
-    <source media="(prefers-color-scheme: dark)" srcset="https://arenekosreal.github.io/arenekosreal/stats/dark.svg">
-    <img alt="GitHub Stats" src="https://arenekosreal.github.io/arenekosreal/stats/default.svg">
-  </picture>
-  <picture alignment="right">
-    <source media="(prefers-color-scheme: dark)" srcset="https://arenekosreal.github.io/arenekosreal/top-langs/dark.svg">
-    <img alt="Top Langs" src="https://arenekosreal.github.io/arenekosreal/top-langs/default.svg">
-  </picture>
-</a>
+## Playing
 
 <a href="https://github.com/Platane/snk">
   <picture>
@@ -39,16 +81,3 @@ Also with what is the status of us recently:
     <img alt="GitHub Contributions" src="https://arenekosreal.github.io/arenekosreal/snakes/light.svg">
   </picture>
 </a>
-
-<a href="https://github.com/antonkomarev/github-profile-views-counter">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://komarev.com/ghpvc/?username=arenekosreal&color=gray&style=for-the-badge">
-    <img alt="Profile Viewers" src="https://komarev.com/ghpvc/?username=arenekosreal&color=brightgreen&style=for-the-badge">
-  </picture>
-</a>
-
-If you want to know where we get those picture elements, simply click on them, the browser will lead you to where we found them.  
-
-If you feel that our repositories are intresting and want to find a way to spend your money, you can sponsor us by those ways:
-
-- BTC: `bc1qy7nmysuy8mfux9xrlrh4u9r8vd2ksanpcu7xks`
